@@ -1,11 +1,13 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
+    background-color: #28b6a9;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
     line-height: 1.5em;
 }
 
@@ -17,12 +19,16 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #light;
     line-height: 2.5em;
 }
 
+h1.page-header {
+    font-family: 'Epilogue', sans-serif;
+}
+
 main.wrapper {
-    background-color: white;
+    background-color: #9dd5be;
     overflow: auto;
 }
 
@@ -37,13 +43,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:blue;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #e6e6cb;
     text-decoration: none;
 }
 
